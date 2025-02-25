@@ -31,8 +31,26 @@ body {
   top: 20vh;
 }
 
-.one {
-  font-size: 4.5rem;
+.one, .three, .five p, .wish-hbd {
+  color: #ffffff;
+}
+
+.two, .four .text-box p, .nine p {
+  color: #f8f8f8;
+}
+
+.four .text-box span, .five .idea-5, .idea-6 span {
+  color: #ffeb3b;
+}
+
+.text-box .fake-btn {
+  color: #fff;
+  font-weight: bold;
+}
+
+.idea-3 strong {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
 
 .two {
@@ -97,7 +115,6 @@ body {
   font-size: 15rem;
 }
 
-
 .six {
   position: relative;
   top: 10vh;
@@ -108,13 +125,11 @@ body {
   display: inline-block;
   height: 350px;
   max-width: 100%;
-  /* height: auto; */
 }
 
 .six .hat {
   left: 41.5%;
   position: absolute;
-  /* transform: scale(0.1); */
   top: -35%;
   width: 80px;
 }
@@ -152,70 +167,11 @@ body {
   z-index: -1;
 }
 
-.eight svg:nth-child(1) {
-  fill: #bd6ecf;
-  left: 5vw;
-  top: 7vh;
-}
-
-.eight svg:nth-child(2) {
-  fill: #7dd175;
-  left: 35vw;
-  top: 23vh;
-}
-
-.eight svg:nth-child(3) {
-  fill: #349d8b;
-  left: 23vw;
-  top: 33vh;
-}
-
-.eight svg:nth-child(4) {
-  fill: #347a9d;
-  left: 57vw;
-  top: 43vh;
-}
-
-.eight svg:nth-child(5) {
-  fill: #c66053;
-  left: 7vw;
-  top: 68vh;
-}
-
-.eight svg:nth-child(6) {
-  fill: #bfaa40;
-  left: 77vw;
-  top: 42vh;
-}
-
-.eight svg:nth-child(7) {
-  fill: #e3bae8;
-  left: 83vw;
-  top: 68vh;
-}
-
-.eight svg:nth-child(8) {
-  fill: #8762cb;
-  left: 37vw;
-  top: 86vh;
-}
-
-.eight svg:nth-child(9) {
-  fill: #9a90da;
-  left: 87vw;
-  top: 94vh;
-}
-
-.wish-hbd {
-  font-size: 3em;
-  margin: 0;
-  text-transform: uppercase;
-}
-
 .wish h5 {
   font-size: 2rem;
   font-weight: lighter;
   margin: 10px 0 0;
+  color: #fff;
 }
 
 .nine p {
@@ -226,31 +182,6 @@ body {
 #replay {
   cursor: pointer;
   z-index: 3;
-}
-
-/* Media Queries */
-@media screen and (max-height: 1000px) {
-  .six .hat {
-    left: 40%;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .six .hat {
-    left: 37%;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .six .hat {
-    left: 32%;
-  }
-}
-
-@media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
-    left: 32%;
-  }
 }
 
 @media screen and (max-width: 500px) {
@@ -276,7 +207,6 @@ body {
   }
 
   .six .hat {
-    /* top: -20px; */
     width: 50px;
   }
 
@@ -293,18 +223,3 @@ body {
     font-weight: lighter;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
